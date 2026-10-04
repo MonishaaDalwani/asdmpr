@@ -1,3 +1,4 @@
+import AboutUs from './pages/AboutUs';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
@@ -31,6 +32,7 @@ function App() {
               <Route path="/doctors" element={<Doctors />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/login" element={<Login />} />
+<Route path="/about" element={<AboutUs />} />
               <Route path="/register" element={<Register />} />
               <Route path="/book-appointment" element={<BookAppointment />} />
 

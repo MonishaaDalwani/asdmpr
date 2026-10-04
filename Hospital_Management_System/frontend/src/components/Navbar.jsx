@@ -54,6 +54,9 @@ const Navbar = () => {
           <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')} onClick={closeMenu}>
             Contact
           </NavLink>
+<NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')} onClick={closeMenu}>
+  About Us
+</NavLink>
 
           <div className="navbar-auth-section">
             {isAuthenticated ? (
